@@ -8,7 +8,7 @@ spec:
     kind: Deployment
     name: php-apache
   minReplicas: 1
-  maxReplicas: 30
+  maxReplicas: 300
   targetCPUUtilizationPercentage: 30
   behavior:
   scaleDown:
