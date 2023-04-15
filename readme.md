@@ -16,3 +16,6 @@
 
 # watch hpa
     kg hpa php-apache-hpa --watch
+
+# run argocd-application
+    ka -f 0.argo-application.yaml
